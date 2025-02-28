@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>241-3210 Mirjalilov Javohir</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="https://mospolytech.ru/local/templates/main/assets/img/logo.svg" alt="Логотип МосПолитеха">
+            <img src="https://mospolytech.ru/upload/medialibrary/5fa/Logo_Polytech_rus_main.jpg" alt="Логотип МосПолитеха">
         </div>
         <div class="title">
-            <h1>Hello, World!</h1>
+            <h1>2.1.Домашняя работа: Hello, World!</h1>
         </div>
     </header>
 
@@ -25,7 +25,7 @@
 
     <footer>
     <?php
-        $randomElements = [
+        $textElements = [
             "Сегодня отличный день для изучения PHP!",
             "Никогда не сдавайтесь!",
             "Код — это поэзия.",
@@ -36,8 +36,8 @@
             "Каждая проблема — это возможность научиться чему-то новому."
         ];
 
-        $randomElement = $randomElements[array_rand($randomElements)];
-        echo "<p>$randomElement</p>";
+        $textElement = $textElements[array_rand($textElements)];
+        echo "<p>$textElement</p>";
         ?>
     </footer>
 </body>
